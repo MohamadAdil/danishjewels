@@ -1,0 +1,86 @@
+@media (max-width: 1200px) {
+  .typography h1 {
+    font-size: 50px;
+  }
+
+  .typography h2 {
+    font-size: 35px;
+  }
+
+  .btn-main {
+    padding: 8px 18px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .typography h1 {
+    font-size: 40px;
+  }
+
+  .typography h2 {
+    font-size: 30px;
+  }
+
+  .btn-main {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+  .site-header .navbar-brand img {
+    max-width: 200px;
+  }
+  .hero-banner {
+    padding: 100px 0;
+  }
+  .product-card,
+  .services,
+  .about-us {
+    padding: 30px 0;
+  }
+  .product-card .text-wrap h2,
+  .services .text-wrap h2,
+  .about-us .text-wrap h2 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .typography h1 {
+    font-size: 32px;
+  }
+
+  .typography h2 {
+    font-size: 24px;
+  }
+
+  .typography p {
+    font-size: 16px;
+  }
+
+  .btn-main {
+    padding: 6px 14px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .typography h1 {
+    font-size: 28px;
+  }
+
+  .typography h2 {
+    font-size: 22px;
+  }
+
+  .typography p {
+    font-size: 15px;
+  }
+
+  .btn-main {
+    padding: 5px 12px;
+    font-size: 11px;
+  }
+  .site-header .navbar-brand img {
+    max-width: 150px;
+  }
+}
